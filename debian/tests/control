@@ -1,0 +1,2 @@
+Tests: require
+Depends: node-get-func-name
