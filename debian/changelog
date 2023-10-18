@@ -1,9 +1,30 @@
-node-get-func-name (2.0.0+dfsg-1.1) unstable; urgency=medium
+node-get-func-name (2.0.0+dfsg-2) unstable; urgency=medium
 
-  * Non maintainer upload by the Reproducible Builds team.
-  * No source change upload to rebuild on buildd with .buildinfo files.
+  * Team upload
 
- -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 03:02:34 +0100
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Repository.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-get-func-name: Add Multi-Arch: foreign.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+  * Bump debhelper from old 12 to 13.
+
+  [ Yadd ]
+  * Add missing build dependency on dh addon.
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+  * Drop dependency to nodejs
+  * Use dh-sequence-nodejs auto install
+
+ -- Yadd <yadd@debian.org>  Sat, 15 Jan 2022 10:59:36 +0100
 
 node-get-func-name (2.0.0+dfsg-1) unstable; urgency=low
 
